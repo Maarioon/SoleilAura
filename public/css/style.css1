@@ -284,12 +284,6 @@ p {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-.teams {
-  filter: grayscale(50%);
-  border-radius: 5px;
-}
-
-
 
 /* contact section */
 #contact {
