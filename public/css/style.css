@@ -286,7 +286,7 @@ p {
 }
 .teams {
   filter: grayscale(50%);
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 
