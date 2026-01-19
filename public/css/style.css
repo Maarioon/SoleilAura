@@ -110,7 +110,7 @@ p {
 
 /* home section */
 #home {
-  background: url('images/home-bg.jpg') no-repeat;
+  background: url('../images/home-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -285,6 +285,7 @@ p {
   padding-bottom: 40px;
 }
 .teams {
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   border-radius: 20px;
 }
