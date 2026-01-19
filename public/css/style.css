@@ -110,7 +110,7 @@ p {
 
 /* home section */
 #home {
-  background: url('') no-repeat;
+  background: url('images/home-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -285,10 +285,18 @@ p {
   padding-bottom: 40px;
 }
 .teams {
-  filter: grayscale(50%);
+  filter: grayscale(100%);
   border-radius: 20px;
 }
-
+.team-container {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.team-wrapper {
+  display:flex;
+  flex-direction: column;
+}
 
 
 /* contact section */
