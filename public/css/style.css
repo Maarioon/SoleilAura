@@ -288,6 +288,8 @@ p {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   border-radius: 20px;
+  width: 100%;
+  display: block;
 }
 .team-container {
   display:flex;
