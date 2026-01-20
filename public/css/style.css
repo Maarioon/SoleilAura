@@ -290,6 +290,7 @@ p {
   border-radius: 20px;
   width: 100%;
   display: block;
+  height: 100%;
 }
 .team-container {
   display:flex;
