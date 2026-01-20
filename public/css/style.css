@@ -299,8 +299,8 @@ p {
   gap: 20px;
 }
 .team-wrapper {
-  display:flex;
-  flex-direction: column;
+  /*display:flex;
+  flex-direction: column;*/
   height: 40vh;
 }
 
