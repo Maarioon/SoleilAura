@@ -299,10 +299,20 @@ p {
   gap: 20px;
 }
 .team-wrapper {
-  /*display:flex;
-  flex-direction: column;*/
-  height: 40vh;
+  display:flex;
+  flex-direction: column;
+  flex: center;
+  height: 100vh;
 }
+
+/*MEMS */
+.mems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+}
+
 
 
 /* contact section */
