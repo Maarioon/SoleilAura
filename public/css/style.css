@@ -1,9 +1,5 @@
 /*
-
-Blaster Template
-
-http://www.templatemo.com/tm-472-blaster
-
+Sol Template css 
 */
 
 body
@@ -61,7 +57,7 @@ p {
 	font-size: 40px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
-    background: #87CEEB;
+    background: #7A6EF0;
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
@@ -85,8 +81,12 @@ p {
   	outline: none;
 }
 .custom-navbar .nav li.active > a {
-    background-color: #87CEEB;
+    background-color: #7A6EF0;
 }
+.custom-navbar .nav li.active > a:hover {
+  background-color: #FFD321;
+}
+
 .custom-navbar .navbar-toggle {
     border: none;
     padding-top: 10px;
@@ -135,10 +135,10 @@ p {
   letter-spacing: 2px;
 }
 #home .btn {
-  background: transparent;
-  border-radius: 0;
-  border: 3px solid #404040;
-  color: #404040;
+  background: #7A6EF0;
+  border-radius: 1;
+  /*border: 3px solid #404040;*/
+  color: #FFFFFF;
   font-weight: bold;
   padding: 16px 42px;
   margin-top: 40px;
@@ -146,13 +146,13 @@ p {
 }
 
 #home .btn:hover {
-  background: #404040;
-  color: #ffffff;
+  background: #FFD321;
+  color: #000000;
 }
 
 /* about section */
 #about .col-md-4 .fa {
-  background: #FFD321;
+  background: #7A6EF0;
   border-radius: 3px;
   color: #ffffff;
   font-size: 32px;
@@ -184,7 +184,7 @@ p {
 }
 
 #about .progress .progress-bar-primary {
-  background: #87CEEB;
+  background: #7A6EF0;
 }
 
 /* portfolio section */
@@ -209,6 +209,7 @@ p {
 #portfolio img:hover {
   opacity: 0.6;
 }
+
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
@@ -232,8 +233,14 @@ p {
     transition: all 0.4s ease-in-out;
     border-radius: 3px;
 }
+
 .filter-wrapper li .selected,
-.filter-wrapper li a:focus,
+.filter-wrapper li a:focus {
+  color: #FFFFFF;
+  outline: none;
+  background: #7A6EF0;
+}
+/*.filter-wrapper li a:focus, */
 .filter-wrapper li a:hover {
     background: #FFD321;
     color: #ffffff;
@@ -342,13 +349,15 @@ p {
   height: 50px;
 }
 #contact input[type="submit"] {
-  border: 2px solid #808080;
+  border-radius: 5px;
+  background-color: #7A6EF0;
+  color: #FFFFFF;
   margin-top: 18px;
   height: 54px;
 }
 #contact input[type="submit"]:hover {
-  background: #808080;
-  color: #ffffff;
+  background: #FFD321;
+  color: #000000;
 }
 #contact textarea {
   height: 170px;
@@ -376,7 +385,7 @@ footer {
   padding: 0;
 }
 .social-icon li a {
-  border-radius: 50%;
+  border-radius: 5px;
   color: #303030;
   font-size: 32px;
   width: 80px;
