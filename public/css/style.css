@@ -135,7 +135,7 @@ p {
   letter-spacing: 2px;
 }
 #home .btn {
-  background: #7A6EF0;
+  background: red;
   border-radius: 1;
   /*border: 3px solid #404040;*/
   color: #FFFFFF;
